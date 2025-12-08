@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Logan's FE:3H Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="top">
+      <div class="menu center-content">
+        <img
+          src="images/crestOfFlames.jpg"
+          class="clickable"
+          id="crest"
+          onClick="playRandomSong()"
+        />
+        <img
+          src="images/empireFlag.webp"
+          class="flag clickable"
+          id="empire"
+          onClick="empire()"
+        />
+        <img
+          src="images/kingdomFlag.webp"
+          class="flag clickable"
+          id="kingdom"
+          onClick="kingdom()"
+        />
+        <img
+          src="images/allianceFlag.webp"
+          class="flag clickable"
+          id="alliance"
+          onClick="alliance()"
+        />
+        <img
+          src="images/arrow.png"
+          class="flag clickable"
+          id="arrow"
+          onClick="goHome()"
+        />
+      </div>
+      <div class="imgDiv center-content" id="characterImagesDiv">
+        <div class="imgCol center-content">
+          <img
+            src=""
+            class="characterImg clickable"
+            id="lord"
+            onClick="lordDesc()"
+          />
+        </div>
+        <div class="imgCol center-content">
+          <img
+            src=""
+            class="characterImg clickable"
+            id="vassal"
+            onClick="vassalDesc()"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <p id="text">
+        Welcome to the continent of Fódlan, from the game Fire Emblem: Three
+        Houses!
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
